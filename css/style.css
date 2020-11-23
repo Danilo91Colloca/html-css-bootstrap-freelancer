@@ -11,7 +11,7 @@
 
 
  .img-small {
-  height: 120px;
+  height: 150px;
 }
 
 .img-normal {
@@ -22,6 +22,37 @@
   color: #fff;
 }
 
-.minus-star-icon {
-  font-size: 30px;
+.row-avatar {
+  padding-top: 20px;
+}
+
+
+.row-workers {
+  margin-bottom: 20px;
+}
+
+/* element resize xs version */
+.minus-star-icon > i {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.minus-star-icon > hr {
+  display: inline-block;
+  width: 45px;
+  height: 1px;
+  background-color: #fff;
+  vertical-align:middle;
+}
+
+h1 {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-size: 25px
+}
+
+.workers-type {
+  font-size: 10px;
 }
