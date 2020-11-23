@@ -88,16 +88,12 @@ p {
 
 /* portfolio section */
 
-.img-portfolio-small {
+.img-portfolio {
   height: 250px;
   border-radius: 8px;
   margin-bottom: 20px;
 }
 
-.img-portfolio-normal {
-  height: 350px;
-  border-radius: 10px;
-}
 
 .row-portfolio {
   margin-bottom: 20px;
