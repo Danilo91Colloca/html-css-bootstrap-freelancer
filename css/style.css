@@ -61,27 +61,6 @@
   margin-bottom: 10px;
 }
 
-h1 {
-  font-size: 25px
-  margin-top: 15px;
-  margin-bottom: 0px;
-}
-
-h2 {
-  font-size: 20px;
-  margin-top: 15px;
-  margin-bottom: 0px;
-}
-
-h3 {
-  font-size: 15px;
-
-}
-
-p {
-  font-size: 10px;
-}
-
 .workers-type {
   font-size: 10px;
 }
@@ -89,7 +68,7 @@ p {
 /* portfolio section */
 
 .img-portfolio {
-  height: 250px;
+  height: 220px;
   border-radius: 8px;
   margin-bottom: 20px;
 }
@@ -99,13 +78,9 @@ p {
   margin-bottom: 20px;
 }
 
+
 /* about section */
 
-.row-about > p {
-  text-align: left;
-  padding-left: 120px;
-  padding-right: 140px;
-}
 
 .btn-success-transparent {
   background-color: transparent;
@@ -114,6 +89,11 @@ p {
   margin-bottom: 15px;
 }
 
+.p-about-row {
+  padding-left: 50px;
+}
+
+/* form section */
 form {
   text-align: left;
   padding-left: 80px;
