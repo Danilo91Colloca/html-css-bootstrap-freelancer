@@ -4,17 +4,15 @@
 }
 
 /* bg-color del jumbotron */
-.bg-color-gray {
+.bg-color-green {
   background-color: #57B99D;
 }
 
-
-
- .img-small {
+ .img-avatar-small {
   height: 150px;
 }
 
-.img-normal {
+.img-avatar-normal {
   height: 250px;
 }
 
@@ -22,6 +20,13 @@
   color: #fff;
 }
 
+.hr-color-white {
+  background-color: #fff;
+}
+
+.hr-color-black {
+  background-color: #000;
+}
 .row-avatar {
   padding-top: 20px;
 }
@@ -42,9 +47,9 @@
 .minus-star-icon > hr {
   display: inline-block;
   width: 45px;
-  height: 1px;
-  background-color: #fff;
+  height: 2px;
   vertical-align:middle;
+  border-radius: 10px;
 }
 
 h1 {
@@ -53,6 +58,50 @@ h1 {
   font-size: 25px
 }
 
+h2 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 10px;
+}
+
 .workers-type {
   font-size: 10px;
+}
+
+/* portfolio section */
+
+
+
+.img-portfolio-small {
+  height: 250px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.img-portfolio-normal {
+  height: 350px;
+  border-radius: 10px;
+}
+
+.row-portfolio {
+  margin-bottom: 20px;
+}
+
+/* about section */
+
+.row-about > p {
+  text-align: left;
+  padding-left: 120px;
+  padding-right: 140px;
+}
+
+.btn-success {
+  background-color: transparent;
+  border-color: #fff;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
