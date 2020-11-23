@@ -1,0 +1,27 @@
+.lasciarevuoto {
+  height: 80px;
+  background-color: #2F3E4E;
+}
+
+/* bg-color del jumbotron */
+.bg-color-gray {
+  background-color: #57B99D;
+}
+
+
+
+ .img-small {
+  height: 120px;
+}
+
+.img-normal {
+  height: 250px;
+}
+
+.text-color-white {
+  color: #fff;
+}
+
+.minus-star-icon {
+  font-size: 30px;
+}
