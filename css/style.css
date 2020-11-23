@@ -20,6 +20,10 @@
   color: #fff;
 }
 
+.text-color-green {
+  color: #57B99D;
+}
+
 .hr-color-white {
   background-color: #fff;
 }
@@ -58,15 +62,20 @@
 }
 
 h1 {
+  font-size: 25px
   margin-top: 15px;
   margin-bottom: 0px;
-  font-size: 25px
 }
 
 h2 {
   font-size: 20px;
   margin-top: 15px;
   margin-bottom: 0px;
+}
+
+h3 {
+  font-size: 15px;
+
 }
 
 p {
@@ -139,4 +148,32 @@ form .form-group:nth-child(4) {
 .form-group > label {
   font-weight: normal;
   margin: 0px 0px 0px;
+}
+/* footer */
+footer {
+  background-color: #3F546B;
+}
+
+.box-second > i {
+  font-size: 15px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding:5px;
+  margin-right: 5px;
+}
+.box-second i.fa-facebook {
+  padding: 5px 8px;
+}
+
+.box-third {
+  padding: 0px 90px;
+}
+/* copyright */
+.bg-color-copyright {
+  background-color: #2F3E4E;
+  height: 80px;
+}
+
+.copyright-text {
+  line-height: 80px;
 }
