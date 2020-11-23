@@ -37,6 +37,7 @@
 }
 
 /* element resize xs version */
+
 .minus-star-icon > i {
   font-size: 18px;
   margin-left: 20px;
@@ -50,6 +51,10 @@
   height: 2px;
   vertical-align:middle;
   border-radius: 10px;
+}
+
+.minus-star-icon {
+  margin-bottom: 10px;
 }
 
 h1 {
@@ -74,8 +79,6 @@ p {
 
 /* portfolio section */
 
-
-
 .img-portfolio-small {
   height: 250px;
   border-radius: 8px;
@@ -99,9 +102,41 @@ p {
   padding-right: 140px;
 }
 
-.btn-success {
+.btn-success-transparent {
   background-color: transparent;
   border-color: #fff;
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+form {
+  text-align: left;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  box-shadow: none;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  padding: 0px;
+}
+
+.form-group {
+  margin: 5px;
+}
+
+form .form-group:nth-child(3) {
+  margin-bottom: 15px;
+}
+
+form .form-group:nth-child(4) {
+  margin-bottom: 10px;
+}
+
+.form-group > label {
+  font-weight: normal;
+  margin: 0px 0px 0px;
 }
