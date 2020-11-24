@@ -1,14 +1,30 @@
-.lasciarevuoto {
-  height: 80px;
+/* navbar */
+.bg-color-nav-copyr {
   background-color: #2F3E4E;
 }
 
+.review-navbar.navbar-default {
+  margin:0;
+  background-color: transparent;
+  border: none;
+}
+
+.review-navbar-brand.navbar-brand,
+.review-navbar-nav.navbar-nav>li>a {
+  color: #fff;
+  min-height: 80px;
+  line-height: 45px;
+}
+
+.review-navbar-toggle.navbar-toggle {
+  margin-top: 20px;
+}
 /* bg-color del jumbotron */
 .bg-color-green {
   background-color: #57B99D;
 }
 
- .img-avatar-small {
+.img-avatar-small {
   height: 150px;
 }
 
@@ -142,10 +158,7 @@ footer {
   padding: 0px 90px;
 }
 /* copyright */
-.bg-color-copyright {
-  background-color: #2F3E4E;
-  height: 80px;
-}
+
 
 .copyright-text {
   line-height: 80px;
