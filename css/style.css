@@ -36,7 +36,7 @@ p, span {
 .minus-star-icon::before,
 .minus-star-icon::after {
   content: "";
-  width: 100px;
+  width: 50px;
   display: inline-block;
   height: 4px;
   border-radius: 2px;
@@ -93,9 +93,9 @@ p, span {
 /* portfolio section */
 
 .img-portfolio {
-  max-width: 350px;
-  padding: 15px;
+  max-width: 250px;
   border-radius: 20px;
+  margin-bottom: 15px;
 }
 
 /* about section */
@@ -179,9 +179,16 @@ footer {
   p, span {
     font-size: 11px;
   }
+
   .img-portfolio {
     max-width: 340px;
   }
+
+  .minus-star-icon::before,
+  .minus-star-icon::after {
+    width: 100px;
+  }
+
 }
 
 @media screen and (min-width:970px) {
@@ -202,7 +209,7 @@ footer {
   }
 
   .img-portfolio {
-    max-width: 330px;
+    max-width: 300px;
     margin-bottom: 20px;
   }
 
