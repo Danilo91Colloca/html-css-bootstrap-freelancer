@@ -154,15 +154,18 @@ footer {
   background-color: #3F546B;
 }
 
-.box-second > i {
+.social-icon-footer > i {
   font-size: 15px;
-  border: 1px solid #fff;
-  border-radius: 50%;
-  padding:5px;
-  margin-right: 5px;
+  line-height: 15px;
+  height: 20px;
+  width: 20px;
 }
-.box-second i.fa-facebook {
-  padding: 5px 8px;
+.social-icon-footer {
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid #fff;
+  padding: 8px;
+  border-radius: 50%;
 }
 
 .box-third {
