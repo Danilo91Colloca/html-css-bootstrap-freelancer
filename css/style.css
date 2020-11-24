@@ -19,6 +19,35 @@
 .review-navbar-toggle.navbar-toggle {
   margin-top: 20px;
 }
+
+/* minus-star */
+.minus-star-icon::before,
+.minus-star-icon::after {
+  content: "";
+  width: 100px;
+  display: inline-block;
+  height: 4px;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+.minus-star-icon.minus-color-white::before,
+.minus-star-icon.minus-color-white::after {
+  background-color: #fff;
+}
+
+.minus-star-icon.minus-color-dark::before,
+.minus-star-icon.minus-color-dark::after {
+  background-color: #2F3E4E;
+}
+
+.minus-star-icon > i {
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  vertical-align: middle;
+  padding-bottom: 10px;
+}
+
 /* bg-color del jumbotron */
 .bg-color-green {
   background-color: #57B99D;
@@ -57,24 +86,6 @@
 
 /* element resize xs version */
 
-.minus-star-icon > i {
-  font-size: 18px;
-  margin-left: 20px;
-  margin-right: 20px;
-  vertical-align: middle;
-}
-
-.minus-star-icon > hr {
-  display: inline-block;
-  width: 45px;
-  height: 2px;
-  vertical-align:middle;
-  border-radius: 10px;
-}
-
-.minus-star-icon {
-  margin-bottom: 10px;
-}
 
 .workers-type {
   font-size: 10px;
